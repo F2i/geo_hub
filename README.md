@@ -75,24 +75,32 @@ python manage.py runserver
 Output on terminal when successfully run server:
 
 > ...
+
 > Django version 4.0.1, using settings 'geo_hub.settings'
+
 > Starting development server at http://127.0.0.1:8000/
+
 > Quit the server with CTRL-BREAK.
 
 ## Verify API Endpoints
 **Note:**  From now, use new terminal for typing command because django application is running on current terminal.
 
 For more readable json data on terminal, install `jsontool` package wih `npm`, if you already know it, just skip this part:
-- Install Nodejs latest verision, you can download it here https://nodejs.org/en/download/ . If you've already installed it, skip this step
+- Install Nodejs latest verision, you can download it here https://nodejs.org/en/download/ .
+If you've already installed it, skip this step
 - Open new terminal and typing this command:
 	```
 	npm install -g jsontool
 	```
 **Activities**
 Endpoint Description:
+
 \- HTTP Method: : `GET`  
+
 \- Path for List: `/geo-hub/geo-products/`
+
 \- Path for Detail: `/geo-hub/geo-products/{product_id}/`
+
 
 CURL command to get product list with no parameter:
 ```
@@ -102,7 +110,7 @@ CURL command to get product list with parameter, this example contain *search, o
 ```
 curl --header "content-type:application/json" --request GET "http://localhost:8000/geo-hub/geo-products/?min_price=12&ordering=price&os_platform=Window&os_platform=Linux&search=Product+1" | json
 ```
-CURL command to get product detail also know as *view info* action, this example get product have id **3**, you can change it if you want:
+CURL command to get product detail also known as *view info* action, this example get product have id **3**, you can change it if you want:
 ```
 curl --header "content-type:application/json" --request GET "http://localhost:8000/geo-hub/geo-products/3/" | json
 ```
@@ -120,8 +128,11 @@ curl --header "content-type:application/json" --request GET "http://localhost:80
 ```
 **Action Data**
 Enpoint Description:
+
 \- HTTP Method: `GET`
+
 \- Path for List: `/customer-action/actions/`
+
 \- Path for Latest: `/customer-action/actions/latest/`
 
 Everytime after you perform activities, you can check list of action information:
