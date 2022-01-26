@@ -75,8 +75,11 @@ python manage.py runserver
 Output on terminal when successfully run server:
 
 > ...
+
 > Django version 4.0.1, using settings 'geo_hub.settings'
+
 > Starting development server at http://127.0.0.1:8000/
+
 > Quit the server with CTRL-BREAK.
 
 ## Verify API Endpoints
