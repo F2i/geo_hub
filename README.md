@@ -28,10 +28,9 @@ Let assume that all request will have sucessful reponse, so that very time reque
 
 ## Set up
 **Python 3.7** or higher is required
+
 "*Just keep using current terminal and every thing will be fine*"
-```
-git clone https://github.com/F2i/geo_hub.git
-```
+
 Clone this repo with git command:
 ```
 git clone https://github.com/F2i/geo_hub.git
