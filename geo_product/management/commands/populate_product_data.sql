@@ -1,0 +1,11 @@
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (1, 'Product 1', 12.12, 'Description 1', 'Window');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (2, 'Product 2', 13.11, 'Description 2', 'MacOS');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (3, 'Product 3', 9, 'Description 3', 'Linux');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (4, 'Product 4', 99.01, 'Description 4', 'Window');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (5, 'Product 5', 27.1, 'Description 5', 'Linux');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (6, 'Product 6', 34.1, 'Description 6', 'MacOS');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (7, 'Product 7', 29.12, 'Description 7', 'Linux');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (8, 'Product 8', 36, 'Description 8', 'MacOS');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (9, 'Product 9', 45, 'Description 9', 'MacOS');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (10, 'Product 1 V1.1', 33, 'Description 10', 'Window');
+INSERT INTO geo_product_geoproduct (id, title, price, description, os_platform) VALUES (11, 'Product 3 V2.1', 67, 'Description 11', 'MacOS');
